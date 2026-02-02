@@ -103,7 +103,7 @@ http://localhost:5000
 ![Dashboard](screenshots/dashboard.png)
 
 ### ➕ Add User Page
-![Add User](screenshots/add-user page.png)
+![Add User](screenshots/add-user.png)
 
 
 
