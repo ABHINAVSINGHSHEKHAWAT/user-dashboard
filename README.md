@@ -96,7 +96,7 @@ http://localhost:5000
 ## 📸 Screenshots
 
 
-```
+
 ## 📸 Screenshots
 
 ### 🏠 Dashboard
@@ -105,7 +105,7 @@ http://localhost:5000
 ### ➕ Add User Page
 ![Add User](screenshots/add-user page.png)
 
-```
+
 
 ---
 
