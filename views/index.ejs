@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>All Users</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<a href="/add" class="top-link">+ Add User</a>
+
+<h1 class="page-title">All Users</h1>
+
+<div class="card-grid">
+
+  <% users.forEach(user => { %>
+    <div class="user-card">
+
+      <img 
+        src="<%= user.imageUrl %>" 
+        alt="profile"
+        class="card-img"
+      >
+
+      <div class="card-body">
+        <h2><%= user.name %></h2>
+        <p><%= user.email %></p>
+      </div>
+
+      <div class="card-actions">
+        <a href="#" class="edit">Edit User</a>
+        <a href="/delete/<%= user._id %>" class="delete">Delete User</a>
+      </div>
+
+    </div>
+  <% }) %>
+
+</div>
+
+</body>
+</html>

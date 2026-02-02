@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add User</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<a href="/" class="top-link">← Back to home</a>
+
+<div class="form-wrapper">
+
+  <h1>Add User</h1>
+
+  <form action="/add" method="POST">
+    <input type="text" name="name" placeholder="Full Name" required>
+    <input type="email" name="email" placeholder="Email Address" required>
+    <input type="number" name="age" placeholder="Age">
+    <input type="text" name="imageUrl" placeholder="Profile Image URL">
+
+    <button type="submit">Create User</button>
+  </form>
+
+</div>
+
+</body>
+</html>
